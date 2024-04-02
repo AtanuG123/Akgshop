@@ -28,9 +28,9 @@ export default function Home() {
             <div onClick={() => switchonclick("man")} className="seedetails">
               <h3>Pankaj Super Sakti suction</h3>
               <ul>
-                <li>2 inch super sakti pipe</li>
-                <li>2.5 inch super sakti pipe</li>
-                <li>3 inch super sakti pipe</li>
+                <li>2 inch 60 MM</li>
+                <li>2.5 inch 65 MM</li>
+                <li>3 inch 70 MM</li>
               </ul>
             </div>
           </li>
@@ -43,9 +43,10 @@ export default function Home() {
             <div onClick={() => switchonclick("woman")} className="seedetails">
               <h3>Plastic Chupri</h3>
               <ul>
-                <li>2 inch super sakti pipe</li>
-                <li>2.5 inch super sakti pipe</li>
-                <li>3 inch super sakti pipe</li>
+                <li>8 inch local</li>
+                <li>10 inch local</li>
+                <li>12 inch local</li>
+                
               </ul>
             </div>
           </li>
@@ -58,9 +59,9 @@ export default function Home() {
             <div onClick={() => switchonclick("style")} className="seedetails">
               <h3>Plastic Bucket</h3>
               <ul>
-                <li>Taj 14 inch bucket</li>
-                <li>14 inch local bucket</li>
-                <li>16 inch local bucket</li>
+                <li>Taj 14 inch </li>
+                <li>14 inch local </li>
+                <li>16 inch local </li>
               </ul>
             </div>
           </li>
@@ -74,9 +75,9 @@ export default function Home() {
             <div onClick={() => switchonclick("man")} className="seedetails">
               <h3>Pankaj Super flex suction</h3>
               <ul>
-                <li>2 inch super sakti pipe</li>
-                <li>2.5 inch super sakti pipe</li>
-                <li>3 inch super sakti pipe</li>
+              <li>2 inch 60 MM</li>
+                <li>2.5 inch 65 MM</li>
+                <li>3 inch 70 MM</li>
               </ul>
             </div>
           </li>
@@ -89,10 +90,10 @@ export default function Home() {
             <div onClick={() => switchonclick("woman")} className="seedetails">
               <h3>Footvalve & Telfish</h3>
               <ul>
-                <li>2 inch Footvalve</li>
-                <li>2 inch Telfish</li>
+                <li>2 inch Footvalve &  Telfish </li>
+               
                 <li>2.5 inch Footvalve & telfish</li>
-                {/* <li>2.5 inch Telfish</li> */}
+               
               </ul>
             </div>
           </li>
