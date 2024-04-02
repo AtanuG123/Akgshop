@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Navber />
-      <Crousal />
+      {/* <Crousal /> */}
       <div id="catagory">
         <div id="catagoryheading">
                     <h2>TOP SELLING PRODUCT</h2> 
