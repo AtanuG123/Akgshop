@@ -13,11 +13,11 @@ export default function Home() {
   return (
     <div>
       <Navber />
-      {/* <Crousal /> */}
+      <Crousal />
       <div id="catagory">
         <div id="catagoryheading">
-                    <h2>TOP SELLING PRODUCT</h2> 
-         </div> 
+          <h2>TOP SELLING PRODUCT</h2>
+        </div>
         <ul id="ul1">
           <li>
             <img
@@ -26,7 +26,7 @@ export default function Home() {
               alt="loading"
             ></img>
             <div onClick={() => switchonclick("man")} className="seedetails">
-              <h3>Pankaj Super Sakti </h3>
+              <h3>Pankaj Super Sakti suction</h3>
               <ul>
                 <li>2 inch super sakti pipe</li>
                 <li>2.5 inch super sakti pipe</li>
@@ -64,7 +64,7 @@ export default function Home() {
               </ul>
             </div>
           </li>
-        
+
           <li>
             <img
               onClick={() => switchonclick("man")}
@@ -72,7 +72,7 @@ export default function Home() {
               alt="loading"
             ></img>
             <div onClick={() => switchonclick("man")} className="seedetails">
-              <h3>Pankaj Eco flex Pipe</h3>
+              <h3>Pankaj Super flex suction</h3>
               <ul>
                 <li>2 inch super sakti pipe</li>
                 <li>2.5 inch super sakti pipe</li>
@@ -93,7 +93,6 @@ export default function Home() {
                 <li>2 inch Telfish</li>
                 <li>2.5 inch Footvalve & telfish</li>
                 {/* <li>2.5 inch Telfish</li> */}
-               
               </ul>
             </div>
           </li>
@@ -109,8 +108,6 @@ export default function Home() {
                 <li>height 25cm</li>
                 <li>width 22cm</li>
                 <li>5Ltr capacity</li>
-               
-               
               </ul>
             </div>
           </li>
@@ -123,11 +120,9 @@ export default function Home() {
             <div onClick={() => switchonclick("style")} className="seedetails">
               <h3>Salt </h3>
               <ul>
-               
                 <li>25 kg Bag</li>
                 <li>1 kg packet</li>
                 <li>500g packet</li>
-               
               </ul>
             </div>
           </li>
@@ -143,8 +138,6 @@ export default function Home() {
                 <li>single size</li>
                 {/* <li>1kg packet</li>
                 <li>500g packet</li> */}
-               
-               
               </ul>
             </div>
           </li>
