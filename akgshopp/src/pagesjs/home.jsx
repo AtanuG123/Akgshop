@@ -10,6 +10,7 @@ import salt from "../assets/salt.jpg";
 import chapa  from "../assets/chapa.jpg";
 import telfish from "../assets/telfish.jpg";
 import ecoflex from "../assets/eco flex.jpg";
+import Footer from "../component/Footer";
 
 export default function Home() {
   return (
@@ -161,6 +162,7 @@ export default function Home() {
           
         </ul>
       </div>
+      <Footer/>
     </div>
   );
 }
