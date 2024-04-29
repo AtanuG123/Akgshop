@@ -4,14 +4,18 @@ ul {
 li {
   text-decoration: none;
 }
+#new1{
+  height: 50vh;
+  width:100vw;
+}
 #catagory {
-  margin: 40px 0px;
+  /* margin: 40px 0px; */
 }
 #catagory *{
   /* margin: 40px 0px; */
   text-align: center;
 }
-#catagoryheading {
+#catagorheading {
   margin-bottom: 20px;
   /* font-weight: 600; */
   text-shadow: 0.2px 0.1px;

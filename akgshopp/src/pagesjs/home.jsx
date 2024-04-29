@@ -3,24 +3,44 @@ import Navber from "../component/navber";
 import "../pagescss/home.css";
 import supersakti from "../assets/supersakti.jpg";
 import chupri from "../assets/chupri.jpg";
-import tajbucket from "../assets/tajbucket.jpg"
-import lowbucket from "../assets/lowbucket.jpg"
+import tajbucket from "../assets/tajbucket.jpg";
+import lowbucket from "../assets/lowbucket.jpg";
 import balti from "../assets/balti.jpg";
 import salt from "../assets/salt.jpg";
-import chapa  from "../assets/chapa.jpg";
+import chapa from "../assets/chapa.jpg";
 import telfish from "../assets/telfish.jpg";
 import ecoflex from "../assets/eco flex.jpg";
 import Footer from "../component/Footer";
 
+import NET from "vanta/src/vanta.net";
+import { useEffect } from "react";
+import { VANTA } from "vanta";
 export default function Home() {
+  useEffect(() => {
+    NET({
+      
+      el: "#ul1",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      maxDistance: 19.0,
+      spacing: 17.0,
+      backgroundColor: 0x12131c,
+    });
+  }, []);
   return (
-    <div>
+    <div >
       <Navber />
       <Crousal />
       <div id="catagory">
-        <div id="catagoryheading">
+        <div id="catagorheading">
           <h2>TOP SELLING PRODUCT</h2>
         </div>
+        
         <ul id="ul1">
           <li>
             <img
@@ -49,7 +69,6 @@ export default function Home() {
                 <li>8 inch local</li>
                 <li>10 inch local</li>
                 <li>12 inch local</li>
-                
               </ul>
             </div>
           </li>
@@ -76,7 +95,6 @@ export default function Home() {
             <div onClick={() => switchonclick("style")} className="seedetails">
               <h3>Plastic local Bucket</h3>
               <ul>
-                
                 <li>14 inch</li>
                 <li>16 inch</li>
               </ul>
@@ -121,10 +139,9 @@ export default function Home() {
             <div onClick={() => switchonclick("woman")} className="seedetails">
               <h3>Footvalve & Telfish</h3>
               <ul>
-                <li>2 inch Footvalve &  Telfish </li>
-               
+                <li>2 inch Footvalve & Telfish </li>
+
                 <li>2.5 inch Footvalve & telfish</li>
-               
               </ul>
             </div>
           </li>
@@ -137,7 +154,7 @@ export default function Home() {
             <div onClick={() => switchonclick("man")} className="seedetails">
               <h3>Pankaj Super flex suction</h3>
               <ul>
-              <li>2 inch 60 MM</li>
+                <li>2 inch 60 MM</li>
                 <li>2.5 inch 65 MM</li>
                 <li>3 inch 70 MM</li>
               </ul>
@@ -158,11 +175,10 @@ export default function Home() {
               </ul>
             </div>
           </li>
-          
-          
         </ul>
       </div>
-      <Footer/>
+
+      <Footer />
     </div>
   );
 }
