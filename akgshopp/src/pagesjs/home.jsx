@@ -21,15 +21,15 @@ export default function Home() {
       
       el: "#ul1",
       mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.0,
-      minWidth: 200.0,
-      scale: 1.0,
-      scaleMobile: 1.0,
-      maxDistance: 19.0,
-      spacing: 17.0,
-      backgroundColor: 0x12131c,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  points: 9.00,
+  maxDistance: 14.00,
+      backgroundColor: 0x0,
     });
   }, []);
   return (
