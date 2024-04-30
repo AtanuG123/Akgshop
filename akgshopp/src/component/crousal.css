@@ -82,11 +82,12 @@ background-color: aliceblue;
     .homeback > div {
      color: rgb(157, 237, 9);
      height: 300px;
+     width: 90vw;
       }
       #welcomehead{
         display: flex;
         height: 70px;
-        width: 480px;
+        width: 100vw;
         font-size: 20px;
       }
       #welcomehead *{
@@ -97,8 +98,12 @@ background-color: aliceblue;
         padding-right: 10px;
        color: rgb(255, 255, 255);
       }
+      .homeback > div h4{
+        width: 90vw;
+         }
       #discount {
         display: flex;
+        width: 90vw;
         padding-top:30px ;
       }
       
@@ -116,6 +121,7 @@ background-color: aliceblue;
         padding-top: 27px;
       }
       .sale{
+        width: 100vw;
         padding-top: 20px;
       }
     .sale h1{

@@ -51,9 +51,7 @@ useEffect(() => {
           <h2>live now</h2>
         </div>
       </div>
-      {/* <div id="animation">
-
-      </div> */}
+      
     </div>
   );
 }
