@@ -9,7 +9,7 @@ li {
   width:100vw;
 }
 #catagory {
-  /* margin: 40px 0px; */
+  margin-top: 20px;
 }
 #catagory *{
   /* margin: 40px 0px; */
@@ -38,8 +38,8 @@ li {
   margin-top: 30px;
   box-shadow: 0px 0px 7px rgba(19, 3, 3, 0.424);
   margin-bottom: 20px;
-  background: content-box radial-gradient(rgba(131, 131, 131, 0.274), rgb(253, 253, 253));
-  /* background-color: rgba(215, 215, 215, 0.257); */
+  background: content-box radial-gradient(rgba(131, 131, 131, 0.5), rgb(253, 253, 253));
+  /* background-color: rgb(255, 254, 254,.8); */
 }
 #catagory ul li img {
   /* cursor: pointer; */

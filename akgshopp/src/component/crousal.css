@@ -1,16 +1,128 @@
-.homeback img{
-  width: 100vw;
+.homeback {
+  width: 100%;
   height: 100vh;
+  /* background-image: url(../assets/akgback1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+ display: flex;
+}
+.homeback * {
+  font-family: "Poppins", sans-serif;
+
+}
+.homeback> div{
+padding-top:  100px;
+padding-left: 100px;
+}
+.homeback > div {
+ color: rgb(157, 237, 9);
+ height: 500px;
+  }
+  #welcomehead{
+    display: flex;
+    height: 70px;
+    width: 480px;
+    font-size: 20px;
+  }
+  .name{
+    padding-left:10px;
+    padding-right: 10px;
+   color: rgb(255, 255, 255);
+  }
+  #discount {
+    display: flex;
+    padding-top:80px ;
+  }
+  
+  .discount1 p{
+    font-size: 58px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+  }
+  .discount2{
+    display: flex;
+  }
+  .discount2 h2{
+    padding-top: 37px;
+  }
+#animation{
+margin-top: 100px;
+height: 400px;
+width: 500px;
+background-color: aliceblue;
+}
+.sale{
+  display: flex;
+  height: 70px;
+  width: 480px;
+  font-size: 20px;
+}
+.sale >h1{
+  /* height: 100px; */
+  background-color: rgb(25, 140, 241);
+  border-radius: 50px;
+  margin-right: 20px;
 }
 @media (max-width: 920px) {
-  .homeback img{
+  .homeback {
     width: 100vw;
     height: 70vh;
   }
 }
-@media (max-width: 450px) {
-  .homeback img{
+@media (max-width: 600px) {
+  .homeback{
     width: 100vw;
     height: 50vh;
   }
+  .homeback> div{
+    padding-top:  100px;
+    padding-left: 30px;
+    }
+    .homeback > div {
+     color: rgb(157, 237, 9);
+     height: 300px;
+      }
+      #welcomehead{
+        display: flex;
+        height: 70px;
+        width: 480px;
+        font-size: 20px;
+      }
+      #welcomehead *{
+        font-size: 25px;
+      }
+      .name{
+        padding-left:10px;
+        padding-right: 10px;
+       color: rgb(255, 255, 255);
+      }
+      #discount {
+        display: flex;
+        padding-top:30px ;
+      }
+      
+      .discount1 p{
+        font-size: 38px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        padding-right: 10px;
+      }
+      .discount2{
+        display: flex;
+      }
+      .discount2 h2{
+        font-size: 16px;
+        padding-top: 27px;
+      }
+      .sale{
+        padding-top: 20px;
+      }
+    .sale h1{
+      font-size: 23px;
+      
+      border-radius: 20px;
+      height: 40px;
+      
+    }
 }

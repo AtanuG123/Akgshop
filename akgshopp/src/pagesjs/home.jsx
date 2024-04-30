@@ -16,22 +16,22 @@ import NET from "vanta/src/vanta.net";
 import { useEffect } from "react";
 import { VANTA } from "vanta";
 export default function Home() {
-  useEffect(() => {
-    NET({
+  // useEffect(() => {
+  //   NET({
       
-      el: "#ul1",
-      mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  points: 9.00,
-  maxDistance: 14.00,
-      backgroundColor: 0x0,
-    });
-  }, []);
+  //     el: "#ule1",
+  //     mouseControls: true,
+  // touchControls: true,
+  // gyroControls: false,
+  // minHeight: 200.00,
+  // minWidth: 200.00,
+  // scale: 1.00,
+  // scaleMobile: 1.00,
+  // points: 9.00,
+  // maxDistance: 14.00,
+  //     backgroundColor: 0x0,
+  //   });
+  // }, []);
   return (
     <div >
       <Navber />
